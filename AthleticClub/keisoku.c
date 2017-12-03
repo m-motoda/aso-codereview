@@ -32,7 +32,7 @@ int keisoku_input( void )
     int     i;
     int     kaiin_code;
     int     undou_sisuu;
-    //char    msg[ 64 ];
+    char    msg[ 64 ];
     char    keisoku_date[ 9 ];
 
     if( (ret = akicode_tbl_read( )) == NG ) {
@@ -289,7 +289,7 @@ static void undou_sisuu_keisan( int *undou_sisuu )
 
         sisuu = huka_sisuu[ i ] * (double)keisoku_indata[ i ].huka * 
                (double)keisoku_indata[ i ].set *
-               ((pow( (double)keisoku_indata[ i ].kaisuu, 2.0 )) /
+               ((pow( (double)keisoku_indata[ i ].kaisuu, 2.0 ))
                ((double)keisoku_indata[ i ].kaisuu - 1.0));
 
         sisuu_total += sisuu;
