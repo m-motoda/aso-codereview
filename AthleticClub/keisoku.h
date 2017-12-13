@@ -15,3 +15,5 @@ static int  kojin_data_update( int kaiin_code, char *keisoku_date, int undou_sis
 static int  keisoku_rank( void );
 static void keisoku_data_sort( int cnt );
 static void keisoku_sort_disp( int cnt );
+
+/* ‚â‚Á‚½‚º */
