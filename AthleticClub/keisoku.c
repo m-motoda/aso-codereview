@@ -464,3 +464,4 @@ static void keisoku_sort_disp( int cnt )
     }
     return;
 }
+/*これでエンドマークだ*/
