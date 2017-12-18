@@ -356,3 +356,4 @@ struct KEISOKU_TBL init_kojin_keisoku_tbl( void )
     };
     return tbl;
 }
+/*ˆÈã‚Å‘²‹Æ®‚ğI—¹‚¢‚½‚µ‚Ü‚·B*/
