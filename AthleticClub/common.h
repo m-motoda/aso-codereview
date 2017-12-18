@@ -2,7 +2,7 @@
 /*  common.h                        */
 /*    共通ヘッダファイル            */
 /************************************/
-
+/*jkwhjkhkjdhsjkdha*/
 #define MEMBER_MAX          200             /* メンバー数 MAX                   */
 #define AKICODE_TBL_NAME    "akicode.tbl"   /* 空きコード表ファイル名           */
 #define CODEDATA_TBL_NAME   "codedata.tbl"  /* コード・データ対照表ファイル名   */
