@@ -3,6 +3,8 @@
 /*    アスレチッククラブ会員管理ヘッダファイル  */
 /************************************************/
 
+/* masadayo- */
+
 static int  codedata_tbl_create( void );
 static int  akicode_tbl_create( void );
 
